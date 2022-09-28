@@ -1,0 +1,23 @@
+
+PRO - when dealing complex object that require a lot of parameters
+    - when trying to prevent mistakes from creating a complex object
+    - when trying to avoid unreadable, big constructors that are sometime required for complex objects creation.
+The builder pattern is:
+
+a technique that is widely used by software engineers when trying to manage the creation of complex
+
+objects.
+
+But what exactly do we need to use the builder?
+
+Well, our situation would be when trying to create complex objects, that requires a lot of parameters,
+
+especially when those parameters need to be supplied at any summarisation phase.
+
+So in a constructor, for example, or when trying to prevent mistakes from creating a complex object
+
+by supplying the parameters that we need to supply in a different order than the one that is expected.
+
+And also when trying to avoid unreadable code that is caused by big constructors, when those big constructors
+
+are needed in order to create some really, really complicated objects in our program.
