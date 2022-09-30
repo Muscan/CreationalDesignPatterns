@@ -1,0 +1,47 @@
+This is used when you have multiple types of factory
+
+Realtional pattern, which is very similar with what we've
+
+seen previously with the factory captain.
+
+They have the same advantages and disadvantages, meaning that they hide very well the details of the
+
+implementation for creating an object, but also they are very difficult to refactor your current code
+
+base in.
+
+And so basically, you need to think about having a factory pattern from the beginning, from the beginning,
+
+from the design phase.
+
+And a big difference is the fact that instead of having a single object factory, which will create
+
+all the objects for you, you have a super factory which will create a factory that will create finally
+
+the object that you're interested in.
+
+This is the diagram of the abstract factory pattern, so you can see we have here the abstract factory,
+
+which is an abstract class or an interface which has a computer method.
+
+This should be in a segmented and your classes that will extend this will need to implement this
+
+method.
+
+The next phase is to have a computer factory, a generic factory, which will create a computer like
+
+we've seen before(In Factory Pattern)
+
+But also we can have different types of factories like portable computer factory, for example, which
+
+will create a specific type of computer that will have that will share this trait, this feature
+
+being a portable one and something independent from from this structure here,
+
+It's the factory producer which will create the factory that we are interested in, depending on the
+
+object that you need to create,
+
+you might need to create a portable computer factory or another type of factory.
+
+But sticking with this example, we will see how we create an object using this design pattern.
