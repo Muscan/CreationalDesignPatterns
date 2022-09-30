@@ -1,0 +1,25 @@
+-Instantiate an object through another object with the condition to implement the same interface
+-You are giving the parameters the name of the object you want to instantiate
+
+Factory pattern is one of the most common design patterns out there and definitely it's widely used even
+by the developers that created Java, one of the libraries that are inside that sit inside
+core Java distribution, calendar framework is created using the factory pattern.
+Basically, according to this pattern, you create an object factory that will create whatever object
+you may need.
+The client will know next to nothing about what it takes to create your object.
+
+It will enable the programmer to add different objects of the same type.
+
+So basically you wont need to modify anything to in order to add a new object, you will just make use
+
+of the factory and you will extend its capabilities to create other objects as well.
+
+Some of the disadvantages are the complexity of this pattern.
+
+-it's quite complex.
+-it's actually a bit difficult to to implement it.
+-you cannot refactor your current code into a factory pattern.
+
+You will need to think about using factory pattern from the beginning.
+Extras: it`s using polymorphism, it can be used with switch case.
+Best case - when you have an interface and you have more classes which implement that interface.
