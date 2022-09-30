@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9f20ca-7942-4799-ba20-9cbb7e234010" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ComputerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ReadMeFactoryPattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/SmartTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
