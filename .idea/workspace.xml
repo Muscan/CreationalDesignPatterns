@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9f20ca-7942-4799-ba20-9cbb7e234010" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/AbstractFactoryDiagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/PortableComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractFactoryPattern/readMeAbstractFactoryPattern" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/ReadMeSingletonPattern" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/SingletonLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/SingletonLoggerLazyInitialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\Mihai Muscan\Desktop\AutomationJava\DesignPatterns" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SingletonPattern.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactoryPattern.App" />
       <module name="DesignPatterns" />
@@ -69,8 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonPattern.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonPattern.App" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPattern.App" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>

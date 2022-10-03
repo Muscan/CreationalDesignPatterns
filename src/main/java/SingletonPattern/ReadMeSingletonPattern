@@ -1,0 +1,35 @@
+
+The features of the Singleton pattern are the following,
+- it prevents the instantiation of a class more than once.
+
+So basically you cannot create two objects of the same class, that class that implements the Singleton
+
+pattern and also provide single access to an object.
+
+Where can you use the singleton patterns?
+
+If, for example, your scope is to create a logger for for your actions, for the actions that your
+
+program performs, you can create a Singleton class that will log all the actions that your program
+
+executes.
+
+Another use case might be a report.
+
+So, for example, you want to create a report of your unit tests.
+
+So, for example, you don't you don't you don't want to use something, an external library that will
+
+do that for you and you want to implement your own.
+
+You may use the Singleton pattern to create such a report, a thread pool and also a cache.
+
+So it doesn't make sense to have multiple objects that will store your cache, some objects in your
+
+cache.
+
+It might make sense to have a single instance of an object that will store everything.
+
+And you can call this instance from many, many places in your code.
+
+
