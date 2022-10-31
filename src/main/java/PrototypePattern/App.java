@@ -22,7 +22,5 @@ public class App {
 
         System.out.println(robot.getComponents());
         System.out.println(anotherRobot.getComponents());
-
-
     }
 }
